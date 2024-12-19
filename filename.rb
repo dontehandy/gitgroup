@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Create a person with a name, age, and favorite_color
 class Person
   attr_reader :name, :age, :favorite_color
 
