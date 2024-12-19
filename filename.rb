@@ -1,10 +1,12 @@
-Class ExampleClass
-    attr_reader :attributea, :attribute2, :attribute3
+# frozen_string_literal: true
 
-    def initialize(attributea, attribute2, attribute3)
-        @attributea = attributea
-        @attribute2 = attribute2
-        @attribute3 = attribute3
-    end
+# Create a person with a name, age, and favorite_color
+class Person
+  attr_reader :name, :age, :favorite_color
+
+  def initialize(name, age, favorite_color)
+    @name = name
+    @age = age
+    @favorite_color = favorite_color
+  end
 end
-
